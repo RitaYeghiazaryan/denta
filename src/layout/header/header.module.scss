@@ -1,0 +1,41 @@
+.header {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  .frame {
+    width: 300px;
+    padding: 25px;
+    object-fit: fill;
+  }
+  .cosmetology {
+    background: #f5bf42;
+    margin-right: 200px;
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 30px;
+  }
+  .nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:30px;
+    text-align: center;
+  
+
+   
+
+    & > :not(:last-child) {
+      gap: 50px;
+      //  max-width: 500px;
+    }
+  }
+
+  .contacts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding: 10px 50px;
+    text-align: center;
+  }
+}
